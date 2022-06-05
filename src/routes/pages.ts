@@ -9,13 +9,15 @@ import {
 } from 'react-icons/bi';
 import styled from 'styled-components';
 
-const DiárioIcon = styled(BiNews)``;
-const FuncionáriosIcon = styled(BiIdCard)``;
-const ClientesIcon = styled(BiGroup)``;
-const ProdutosIcon = styled(BiPackage)``;
-const AtividadesIcon = styled(BiTask)``;
-const DocumentosIcon = styled(BiCabinet)``;
-const MovimentaçãoIcon = styled(BiSpreadsheet)``;
+const style = { color: 'white', size: '40px' };
+
+const DiárioIcon = styled(BiNews).attrs(style)``;
+const FuncionáriosIcon = styled(BiIdCard).attrs(style)``;
+const ClientesIcon = styled(BiGroup).attrs(style)``;
+const ProdutosIcon = styled(BiPackage).attrs(style)``;
+const AtividadesIcon = styled(BiTask).attrs(style)``;
+const DocumentosIcon = styled(BiCabinet).attrs(style)``;
+const MovimentaçãoIcon = styled(BiSpreadsheet).attrs(style)``;
 
 const pages = [
   { name: 'Diário', icon: DiárioIcon, path: '/' },

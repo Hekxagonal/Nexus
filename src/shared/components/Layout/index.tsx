@@ -25,10 +25,7 @@ const Layout = (props: ComponentProps) => {
 
         <S.IconGroup>
           {Pages.map(
-            (El, i) =>
-              props.pageId != i && (
-                <El.icon color="white" size="40px" key={i}></El.icon>
-              ),
+            (El, i) => props.pageId != i && <El.icon key={i}></El.icon>,
           )}
         </S.IconGroup>
       </S.LateralMenu>
