@@ -36,5 +36,6 @@ module.exports = {
     '@typescript-eslint/rule-name': 'off',
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-var-requires': 'off',
+    'no-duplicate-imports': 'error',
   },
 };

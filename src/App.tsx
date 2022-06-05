@@ -1,10 +1,12 @@
 import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
+import { Routes } from './routes';
 
 const App = () => {
   return (
     <div className="App">
       <CssBaseline />
+      <Routes />
     </div>
   );
 };
